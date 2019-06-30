@@ -1,138 +1,180 @@
-@@include('templates/header.html')
-<h1>Hello world</h1>
-<header class="header-top">
-	<div class="container container_header">
-		<h1 class="slogan">we’re creative agency</h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<div class="logo">
-			<p class="logo__item">Elegant</p>
-			<nav class="nav-box">
-				<a class="nav-box__item" href="#">Home</a>
-				<a class="nav-box__item" href="#">Services</a>
-				<a class="nav-box__item" href="#">About us</a>
-				<a class="nav-box__item" href="#">Our work</a>
-				<a class="nav-box__item" href="#">Contacts</a>
-			</nav>
-		</div><!-- /.logo-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-		<p class="slogan-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-			Aenean commodo ligula eget dolor. Aenean massa.
-		</p>
-		<a class="scroll" href="#">
-			<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32">
-				<path d="M9.4,17.6L9.4,17.6c-0.2,0.3-0.4,0.6-0.4,1c0,0.8,0.7,1.5,1.5,1.5c0.4,0,0.8-0.2,1.1-0.5l0,0l4.3-4.8l4.5,4.7l0,0
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <header class="header-top">
+        <div class="container container_header">
+            <h1 class="slogan">we’re creative agency</h1>
+
+            <div class="logo">
+                <p class="logo__item">Elegant</p>
+                <nav class="nav-box">
+                    <a class="nav-box__item" href="#">Home</a>
+                    <a class="nav-box__item" href="#">Services</a>
+                    <a class="nav-box__item" href="#">About us</a>
+                    <a class="nav-box__item" href="#">Our work</a>
+                    <a class="nav-box__item" href="#">Contacts</a>
+              </nav>
+            </div><!-- /.logo-->
+
+            <p class="slogan-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor. Aenean massa.
+            </p>
+            <a class="scroll" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32">
+                    <path d="M9.4,17.6L9.4,17.6c-0.2,0.3-0.4,0.6-0.4,1c0,0.8,0.7,1.5,1.5,1.5c0.4,0,0.8-0.2,1.1-0.5l0,0l4.3-4.8l4.5,4.7l0,0
         c0.3,0.3,0.7,0.5,1.1,0.5c0.8,0,1.5-0.7,1.5-1.5c0-0.4-0.2-0.7-0.4-1l0,0L17,11.5c-0.3-0.3-0.7-0.5-1.1-0.5s-0.8,0.2-1.1,0.5
         L9.4,17.6z M0,16.2C0.1,25,7.4,32.1,16.2,32S32.1,24.6,32,15.8S24.6-0.1,15.8,0S-0.1,7.4,0,16.2z M29,15.8
         C29.1,23,23.3,28.9,16.2,29S3.1,23.3,3,16.2S8.7,3.1,15.8,3S28.9,8.7,29,15.8z"/>
-			</svg>  <!--  кругая хрень -->
-		</a>
-	</div>
-</header>
+                </svg>  <!--  кругая хрень -->
+            </a>
+        </div>
+    </header>
 
-<div class="main-content">
-	<h2>Our Services</h2>
-	<hr>
-	<div class="container__services">
+    <div class="main-content">
+        <h2>Our Services</h2>
+           <hr>
+       <div class="container__services">
+           
+          <div class="container__column">
+            <img src="i/left_img.png" alt="">
+            <div>
+                <h3 class="container__head">App Design</h3>
+                    <p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
+                ratione repellat similique velit, veniam vitae!</p>
+            </div>    
+          </div>
+           <div class="container__column">
+            <img src="i/central_img.png" alt="">
+             <div>
+                <h3 class="container__head">Responsive Layout</h3>
+                    <p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
+                   ratione repellat similique velit, veniam vitae!</p>
+             </div>       
+            </div>
+           <div class="container__column">
+            <img src="i/right_img.png" alt="">
+             <div>
+                <h3 class="container__head">Pixel Perfect Design</h3>    
+                    <p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
+                   ratione repellat similique velit, veniam vitae!</p>
+             </div>       
+           </div>
+       </div>
+       <div class="content-mobile">
+           
+            <div class="content-mobile__text">   
+                <h3>Lorem ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eius, veniam minus nulla quos beatae consequatur eveniet, consectetur natus. Ipsam!</p>
+            </div>
+             <div class="content-mobile__img">
+                <!-- <img class="content__img" src="i/Layer 15.png"> -->
+            </div>    
+       </div>
+        
+        <div class="conteiner-works">
 
-		<div class="container__column">
-			<img src="i/left_img.png" alt="">
-			<div>
-				<h3 class="container__head">App Design</h3>
-				<p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
-					ratione repellat similique velit, veniam vitae!</p>
-			</div>
-		</div>
-		<div class="container__column">
-			<img src="i/central_img.png" alt="">
-			<div>
-				<h3 class="container__head">Responsive Layout</h3>
-				<p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
-					ratione repellat similique velit, veniam vitae!</p>
-			</div>
-		</div>
-		<div class="container__column">
-			<img src="i/right_img.png" alt="">
-			<div>
-				<h3 class="container__head">Pixel Perfect Design</h3>
-				<p class="cintainer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Adipisci, doloremque eius est eum exercitationem illum impedit maxime modi natus neque nihil non odit quos,
-					ratione repellat similique velit, veniam vitae!</p>
-			</div>
-		</div>
-	</div>
-	<div class="content-mobile">
+            <div>
+                <h2>Our Works</h2>
+                <hr>
+            </div>
+            <div class="content-works">
+           
+                <div class="content-works__img">
+                    <img src="i/item-left.png">
+                </div>
+                <div class="content-works__img">
+                    <img src="i/item-center.png">
+                </div>
+                <div class="content-works__img">
+                    <img src="i/item-right.png">
+                </div>
+           
+            </div>
 
-		<div class="content-mobile__text">
-			<h3>Lorem ipsum dolor.</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eius, veniam minus nulla quos beatae consequatur eveniet, consectetur natus. Ipsam!</p>
-		</div>
-		<div class="content-mobile__img">
-			<!-- <img class="content__img" src="i/Layer 15.png"> -->
-		</div>
-	</div>
+            <button class="conteiner-works__btn">MORE</button>
+        </div>
 
-	<div class="conteiner-works">
-
-		<div>
-			<h2>Our Works</h2>
-			<hr>
-		</div>
-		<div class="content-works">
-
-			<div class="content-works__img">
-				<img src="i/item-left.png">
-			</div>
-			<div class="content-works__img">
-				<img src="i/item-center.png">
-			</div>
-			<div class="content-works__img">
-				<img src="i/item-right.png">
-			</div>
-
-		</div>
-
-		<button class="conteiner-works__btn">MORE</button>
-	</div>
-
-	<footer class="contact-form">
-		<div class="contact-wrapper">
-			<form action="#" method="post">
-				<div class="form-wrapper">
-					<div class="form-inputs">
-						<p>Email</p>
-						<input class="contact-imputs" type="email" name="" placeholder="email">
-						<!-- <label class="contact-label">Name</label>
-                        <input class="contact-imputs" type="text" name=""> -->
-					</div>
-					<div class="form-inputs">
-						<p>Name</p>
-						<input class="contact-imputs" type="text" name="">
-					</div>
-				</div>
-				<textarea name="text"></textarea>
-				<div class="button-block">
-					<input class="" type="submit" value="SEND">
-				</div>
-			</form>
-		</div>
-
-	</footer>
-
-
-	<!---->
-	<!--<footer class="footer">-->
-	<!--<div class="container">-->
-	<!--<h1>Footer</h1>-->
-	<!--</div>-->
-	<!--</footer>-->
+        <footer class="contact-form">
+           <div class="contact-wrapper">
+            <form action="#" method="post">
+                <div class="form-wrapper">
+                <div class="form-inputs">
+                    <p>Email</p>
+                    <input class="contact-imputs" type="email" name="" placeholder="email">
+                </div>
+                <div class="form-inputs">
+                    <p>Name</p>
+                    <input class="contact-imputs" type="text" name=""
+                    placeholder="name">
+                </div>
+                </div>
+                <textarea name="text"></textarea>
+                <div class="button-block">
+                    <input class="" type="submit" value="SEND">
+                </div>
+            </form>    
+           </div>
+            
+        </footer>
 
 
-
+    <!---->
+    <!--<footer class="footer">-->
+        <!--<div class="container">-->
+            <!--<h1>Footer</h1>-->
+        <!--</div>-->
+    <!--</footer>-->
+        
+           
 
 
 
 
-	<script src="js/script.js"></script>
-@@include('templates/footer.html')
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+ <!-- <div class="footer-content">
+            <div>
+            <h2 class="footer-hello">Get in Touch</h2>
+            <hr class="footer-line">
+            </div>
+
+            <div class="footerr-form__social">иконки соц сетей</div>
+
+            <div class="form-items">
+                <div class="form__firstrow">
+                <div class="form-items__left">
+                   <input type="text" name="name" id="name" placeholder="Name"> 
+                </div>
+                
+                <div class="form-items">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                </div>
+
+                <div class="form-items__center">
+                    <input type="text" name="message" id="message" placeholder="Message">
+                </div>
+            <button class="footer-form__btn">SEND</button>
+            </div>
+            
+            </div> -->

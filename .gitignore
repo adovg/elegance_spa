@@ -1,14 +1,15 @@
-.DS_Store
+# dependencies
 .idea
-*.ai
-*.log
-*.pdf
-*.psd
-*.sublime*
-css/*.css
-node_modules/
-Thumbs.db
-build/
-bower_components
-package-lock.json
-.publish/
+/node_modules
+
+# production
+/dist
+
+# misc
+.DS_Store
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+

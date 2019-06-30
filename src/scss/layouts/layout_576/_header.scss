@@ -1,0 +1,18 @@
+.logo__item {
+  margin-bottom: rem(30px);
+}
+
+.header-top {
+  padding-top: rem(40px);
+}
+
+.nav-box {
+  display: flex;
+  justify-content: space-around;
+  @include e(item) {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+   }
+} // nav-box
