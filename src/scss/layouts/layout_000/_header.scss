@@ -68,7 +68,7 @@
 .main-content {
   text-align: center;
     h2 {
-      // font-family: Raleway;
+      font-family: 'Raleway';
       font-size: 35px;
       font-weight: 700;
         hr {
@@ -93,20 +93,13 @@
   margin: 60px auto;
   align-items: flex-end;
     .container__column {
-       // align-items: bottom;
        text-align: center;
        max-width: 30%;
-       // margin: 15px 5px;
        min-width: 200px;
     }
 }
 
-.container__services img {
-          // width: 200px;
-          // height: 200px;
 
-          
-        }
 
 .container__services h3 {
   padding-top: 20px;
@@ -118,46 +111,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // max-height: 100%;
-  // max-width: 100%;
-    
 }
 
-// .content-mobile__img {
-//   flex-grow: 1;
-//   flex-shrink: 1;
-//   flex-basis: 200px;
-// }
+ .content-mobile__img {
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 200px;
+ }
 
 .content-mobile__text {
-  // padding-left: 200px;
-  // padding-top: 170px;
   padding-left: 100px;
   padding-top: 170px;
-  // padding-right: 250px;
-  // margin-left: 200px;
+  max-width: 750px;	
   margin-bottom: 200px;
   color: #fafafa;
   text-align: left;
-  // указать шрифты и размеры 
   font-family: Lato;
   font-size: 22px;
     h3 {
        font-size: 45px;
     }
 }
-
-// .content-works {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   flex-direction: row;
-//     .content-works__img {
-//       margin: 10px;
-//       max-width: 200px;
-//       max-height: 200px;
-//     }
-// }
 
 
 .content-works {
@@ -172,7 +146,7 @@
       margin: 0 30px 25px 30px;
       flex-grow: 1;
         &:hover {
-          background: red;
+          background: #fafafa;
         }
     }
 }
@@ -193,7 +167,6 @@
 
 footer {
   margin: auto;
- 
   background-image: url(#{$i}footer-bg.png);
   background-size: cover;
   height: 800px;
@@ -210,8 +183,6 @@ footer {
     flex-wrap: nowrap;
     text-align: center;
     align-items: center;
-
-  //padding-top: 430px;
 }
 
 .form-wrapper {
@@ -225,7 +196,6 @@ footer {
   
     .contact-imputs {
       width: 300px;
-      // width: 50%;
       height: 50px;
       border: none;
       outline: none;
@@ -241,7 +211,7 @@ footer {
 }
 
  textarea {
-  // min-width: 300px;
+  min-width: 300px;
   width: 50%;
   border-top: none;
   outline: none;

@@ -639,6 +639,7 @@ body {
 }
 
 .main-content h2 {
+  font-family: 'Raleway';
   font-size: 35px;
   font-weight: 700;
 }
@@ -690,9 +691,20 @@ body {
   background-position: center;
 }
 
+.content-mobile__img {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
+}
+
 .content-mobile__text {
   padding-left: 100px;
   padding-top: 170px;
+  max-width: 750px;
   margin-bottom: 200px;
   color: #fafafa;
   text-align: left;
@@ -732,7 +744,7 @@ body {
 }
 
 .content-works .content-works__img:hover {
-  background: red;
+  background: #fafafa;
 }
 
 .conteiner-works__btn {
@@ -806,6 +818,7 @@ footer {
 }
 
 textarea {
+  min-width: 300px;
   width: 50%;
   border-top: none;
   outline: none;
